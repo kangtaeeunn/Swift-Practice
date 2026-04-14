@@ -14,7 +14,8 @@ struct ContentView: View {
     @State private var players: [Player] = [ //private var에 대해 알아보기
         Player(name: "Anna", score: 0),
         Player(name: "Dana", score: 0),
-        Player(name: "Kaya", score: 0)
+        Player(name: "Kaya", score: 0),
+        Player(name: "noeul", score: 10)
     ]
     
     
